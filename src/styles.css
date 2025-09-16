@@ -1,0 +1,38 @@
+body {
+  color: darkgreen;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.container > * {
+  margin: 1rem;
+  background-color: blanchedalmond;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  align-self: center;
+}
+
+button {
+  padding: 0.5em;
+  background-color: blanchedalmond;
+  color: darkgreen;
+  font-weight: bold;
+  border-radius: 1em;
+  width: fit-content;
+}
+
